@@ -1,0 +1,50 @@
+body {
+  background-color: #1E201E;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+}
+
+.sectiontodo_box {
+  /* background-color: #3C3D37; */
+  width: 100%;
+  max-width: 500px;
+  margin: 100px auto;
+}
+
+.sectiontodo_h1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form-control {
+  padding: 5px 12px;
+  height: 35px;
+  border-radius: 4px;
+  box-shadow: none;
+  background-color: #3C3D37;
+  border: 1px solid #697565;
+  outline: 0px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn {
+  font-size: 14px;
+  color: #000;
+}
+
+
+
+
