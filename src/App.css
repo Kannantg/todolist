@@ -1,10 +1,4 @@
-body {
-  background-color: #1E201E;
-  font-size: 14px;
-  font-weight: 400;
-  color: #000;
-  position: relative;
-}
+
 
 .container {
   width: 100%;
@@ -14,7 +8,7 @@ body {
 .sectiontodo_box {
   /* background-color: #3C3D37; */
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   margin: 100px auto;
 }
 
@@ -29,8 +23,7 @@ body {
 }
 
 .form-control {
-  padding: 5px 12px;
-  height: 35px;
+  padding: 10px 12px;
   border-radius: 4px;
   box-shadow: none;
   background-color: #3C3D37;
@@ -38,13 +31,66 @@ body {
   outline: 0px;
   font-size: 16px;
   color: #fff;
+  font-family: inherit;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .btn {
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
+  border: 1px solid;
+  outline: 0px;
+  border-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 16px;
 }
 
+.addbtn {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
 
+.delbtn {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 7px 8px;
+  display: grid;
+  place-content: center;
+}
 
+.todolist {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  list-style: none;
+}
 
+.todolist_li {
+  background-color: #3C3D37;
+  border-radius: 5px;
+  padding: 10px 16px;
+}
+
+.todolist_li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.todolist_li .flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todolist_content {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
